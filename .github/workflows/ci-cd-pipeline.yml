@@ -25,10 +25,15 @@ jobs:
 
     - name: Install dependencies
       run: |
-        cd space-detection-frontend
-        npm install
+        cd space-detection-frontend 
+        npm install 
 
     - name: Build the Angular project
       run: |
-        cd space-detection-frontend
+        cd space-detection-frontend  # Yine doğru dizine geçiyoruz
         npm run build --if-present
+
+    - name: Run tests
+      run: |
+        cd space-detection-frontend  # Testlerin doğru dizinde çalışması için
+        npm test -- --watch=false --browsers=ChromeHeadlessCI
