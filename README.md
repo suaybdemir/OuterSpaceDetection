@@ -16,7 +16,7 @@ This project creating as to analyze space objects which depends on detection, cl
 - **Google Gemini AI API**
 - **Mobile or Web Interface**
 
-## 🔄 Kurulum
+## 🔄 Installation
 1. **Install Backend Dependencies**
    ```sh
    dotnet add package ??
@@ -38,7 +38,7 @@ Content-Type: multipart/form-data
 ```
 Body: `image: {sky photo}`
 
-Yanıt:
+Response:
 ```json
 {
   "star_type": "Red Giant",
