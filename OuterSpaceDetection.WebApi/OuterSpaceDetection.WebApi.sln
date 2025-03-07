@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35806.99 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OuterSpaceDetection.WebApi.Application", "OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Application\OuterSpaceDetection.WebApi.Application.csproj", "{F3F99CE5-3299-4D6B-A4F0-408698151A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OuterSpaceDetection.WebApi.Domain", "OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\OuterSpaceDetection.WebApi.Domain.csproj", "{A67451FA-4B48-4563-BE10-EB7FE2AB1E11}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OuterSpaceDetection.WebApi.Infrastructure", "OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Infrastructure\OuterSpaceDetection.WebApi.Infrastructure.csproj", "{F70B0274-A8E5-4FE7-99F3-6CF199359F68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OuterSpaceDetection.WebApi.WebAPI", "OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.WebAPI\OuterSpaceDetection.WebApi.WebAPI.csproj", "{1EB83F18-F977-4B33-A832-65BA9EA08F88}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F3F99CE5-3299-4D6B-A4F0-408698151A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F99CE5-3299-4D6B-A4F0-408698151A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F99CE5-3299-4D6B-A4F0-408698151A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F99CE5-3299-4D6B-A4F0-408698151A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67451FA-4B48-4563-BE10-EB7FE2AB1E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67451FA-4B48-4563-BE10-EB7FE2AB1E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67451FA-4B48-4563-BE10-EB7FE2AB1E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67451FA-4B48-4563-BE10-EB7FE2AB1E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F70B0274-A8E5-4FE7-99F3-6CF199359F68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F70B0274-A8E5-4FE7-99F3-6CF199359F68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F70B0274-A8E5-4FE7-99F3-6CF199359F68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F70B0274-A8E5-4FE7-99F3-6CF199359F68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EB83F18-F977-4B33-A832-65BA9EA08F88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EB83F18-F977-4B33-A832-65BA9EA08F88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EB83F18-F977-4B33-A832-65BA9EA08F88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EB83F18-F977-4B33-A832-65BA9EA08F88}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6BDEA9D7-FCA1-4ABD-9A93-D0E07469B29E}
+	EndGlobalSection
+EndGlobal

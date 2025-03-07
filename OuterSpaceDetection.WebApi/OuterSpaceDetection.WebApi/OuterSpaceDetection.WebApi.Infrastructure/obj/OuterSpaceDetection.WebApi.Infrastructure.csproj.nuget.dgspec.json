@@ -1,0 +1,284 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Infrastructure\\OuterSpaceDetection.WebApi.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Application\\OuterSpaceDetection.WebApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Application\\OuterSpaceDetection.WebApi.Application.csproj",
+        "projectName": "OuterSpaceDetection.WebApi.Application",
+        "projectPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Application\\OuterSpaceDetection.WebApi.Application.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\OuterSpaceDetection.WebApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\OuterSpaceDetection.WebApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.1, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "TS.Result": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\OuterSpaceDetection.WebApi.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\OuterSpaceDetection.WebApi.Domain.csproj",
+        "projectName": "OuterSpaceDetection.WebApi.Domain",
+        "projectPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\OuterSpaceDetection.WebApi.Domain.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Ardalis.SmartEnum": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "TS.EntityFrameworkCore.GenericRepository": {
+              "target": "Package",
+              "version": "[8.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Infrastructure\\OuterSpaceDetection.WebApi.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Infrastructure\\OuterSpaceDetection.WebApi.Infrastructure.csproj",
+        "projectName": "OuterSpaceDetection.WebApi.Infrastructure",
+        "projectPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Infrastructure\\OuterSpaceDetection.WebApi.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Application\\OuterSpaceDetection.WebApi.Application.csproj": {
+                "projectPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Application\\OuterSpaceDetection.WebApi.Application.csproj"
+              },
+              "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\OuterSpaceDetection.WebApi.Domain.csproj": {
+                "projectPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\OuterSpaceDetection.WebApi.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Scrutor": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
