@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "OuterSpaceDetection.WebApi.WebAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "OuterSpaceDetection.WebApi.Application.Features.Auth.Login.LoginCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "OuterSpaceDetection.WebApi.WebAPI.Controllers.SpaceObjectsController",
+    "Method": "ClassifyStar",
+    "RelativePath": "api/SpaceObjects/ClassifyStar/classify",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "imagePath",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "YU9aZbk44EaiDTCwzYdTwrPpUfdtQmFyeWpAIu3U2aQ=",
+  "Source": "OuterSpaceDetection.WebApi.WebAPI",
+  "BasePath": "_content/OuterSpaceDetection.WebApi.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

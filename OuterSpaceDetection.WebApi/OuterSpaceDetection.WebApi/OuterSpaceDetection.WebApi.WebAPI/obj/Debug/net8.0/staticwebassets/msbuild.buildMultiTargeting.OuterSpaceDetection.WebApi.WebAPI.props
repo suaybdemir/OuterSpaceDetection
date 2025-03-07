@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\OuterSpaceDetection.WebApi.WebAPI.props" />
+</Project>

@@ -17,8 +17,8 @@ public static class ExtensionsMiddleware
                 {
                     UserName = "admin",
                     Email = "admin@admin.com",
-                    FirstName = "Taner",
-                    LastName = "Saydam",
+                    FirstName = "Admin",
+                    LastName = "Admin",
                     EmailConfirmed = true
                 };
 
