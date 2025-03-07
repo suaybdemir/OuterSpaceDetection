@@ -2,7 +2,7 @@
 
 This project creating as to analyze space objects which depends on detection, classification and analysis of what there is in the input.
 
-## ✨ How will it work?
+## ✨ How it will work?
 1. User phone or ESP32-CAM take photos (in this stage telephone phone or potent images like university instances or in journal etc.), from space.
 2. Photos gonna sent **.NET Core backend**.
 3. With **OpenCV** bright points (starts, planets , meteors ...) detects.
