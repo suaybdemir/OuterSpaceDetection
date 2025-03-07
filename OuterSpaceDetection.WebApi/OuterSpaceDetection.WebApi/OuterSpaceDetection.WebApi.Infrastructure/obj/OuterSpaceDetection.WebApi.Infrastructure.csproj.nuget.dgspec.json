@@ -60,10 +60,6 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
-            "Emgu.CV": {
-              "target": "Package",
-              "version": "[4.10.0.5680, )"
-            },
             "FluentValidation": {
               "target": "Package",
               "version": "[11.10.0, )"

@@ -1,9 +1,6 @@
-﻿using Emgu.CV;
-using System;
-
-namespace OuterSpaceDetection.WebApi.Application.Services;
+﻿namespace OuterSpaceDetection.WebApi.Application.Services;
 
 public interface IOpenCVService
 {
-    Task<Mat> ProcessImageAsync(string imagePath,CancellationToken cancellationToken);
+    Task<string> ProcessImageAsync(string imagePath,CancellationToken cancellationToken);
 }

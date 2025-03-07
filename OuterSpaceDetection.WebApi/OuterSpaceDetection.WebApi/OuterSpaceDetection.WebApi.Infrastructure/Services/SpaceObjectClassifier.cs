@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using OuterSpaceDetection.WebApi.Application.Services;
 using OuterSpaceDetection.WebApi.Domain.Dtos;
-using OuterSpaceDetection.WebApi.Domain.Entities;
 
 namespace OuterSpaceDetection.WebApi.Infrastructure.Services;
 

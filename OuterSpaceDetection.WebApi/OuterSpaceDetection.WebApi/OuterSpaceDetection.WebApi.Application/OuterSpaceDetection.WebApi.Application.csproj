@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
-    <PackageReference Include="Emgu.CV" Version="4.10.0.5680" />
     <PackageReference Include="FluentValidation" Version="11.10.0" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.10.0" />
     <PackageReference Include="MediatR" Version="12.4.1" />
@@ -19,6 +18,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OuterSpaceDetection.WebApi.Domain\OuterSpaceDetection.WebApi.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Files\Images\" />
   </ItemGroup>
 
 </Project>

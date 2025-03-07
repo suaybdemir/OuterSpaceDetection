@@ -11,3 +11,16 @@ C:\Users\pc\Desktop\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDet
 C:\Users\pc\Desktop\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\refint\OuterSpaceDetection.WebApi.Domain.dll
 C:\Users\pc\Desktop\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.pdb
 C:\Users\pc\Desktop\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\ref\OuterSpaceDetection.WebApi.Domain.dll
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\bin\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.deps.json
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\bin\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.dll
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\bin\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.pdb
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.csproj.AssemblyReference.cache
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.AssemblyInfoInputs.cache
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.AssemblyInfo.cs
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.sourcelink.json
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.dll
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\refint\OuterSpaceDetection.WebApi.Domain.dll
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\OuterSpaceDetection.WebApi.Domain.pdb
+C:\Users\pc\Documents\OuterSpaceDetection\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi\OuterSpaceDetection.WebApi.Domain\obj\Debug\net8.0\ref\OuterSpaceDetection.WebApi.Domain.dll
