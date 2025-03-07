@@ -34,5 +34,6 @@ jobs:
     - name: Build the Solution
       run: dotnet build $env:Solution_Name --configuration ${{ matrix.configuration }}
 
+    # Error Occurs -> MSBUILD : error MSB1009: Project file does not exist.
     - name: Run the Application
-      run: dotnet run --configuration ${{ matrix.configuration }} --project $env:Solution_Name/OuterSpaceDetection.WebApi/OuterSpaceDetection.WebApi.WebAPI/OuterSpaceDetection.WebApi.csproj
+      run: dotnet run --configuration ${{ matrix.configuration }} --project $env:Solution_Name/OuterSpaceDetection.WebApi/OuterSpaceDetection.WebApi.WebAPI/OuterSpaceDetection.WebApi.WebAPI.csproj
