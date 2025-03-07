@@ -19,7 +19,7 @@ This project creating as to analyze space objects which depends on detection, cl
 ## 🔄 Installation
 1. **Install Backend Dependencies**
    ```sh
-   dotnet add package ??
+   dotnet add package OpenCvSharp4
    ````
 2. **Take a Google Gemini API Key and Define**
    - Take from Gemini API **API Key**.

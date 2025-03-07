@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB83F18-F977-4B33-A832-65BA9EA08F88}|OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\OuterSpaceDetection.WebApi.WebAPI.csproj|c:\\users\\pc\\desktop\\outerspacedetection\\outerspacedetection.webapi\\outerspacedetection.webapi\\outerspacedetection.webapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB83F18-F977-4B33-A832-65BA9EA08F88}|OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\OuterSpaceDetection.WebApi.WebAPI.csproj|solutionrelative:outerspacedetection.webapi\\outerspacedetection.webapi.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB83F18-F977-4B33-A832-65BA9EA08F88}|OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\OuterSpaceDetection.WebApi.WebAPI.csproj|c:\\users\\pc\\desktop\\outerspacedetection\\outerspacedetection.webapi\\outerspacedetection.webapi\\outerspacedetection.webapi.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB83F18-F977-4B33-A832-65BA9EA08F88}|OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\OuterSpaceDetection.WebApi.WebAPI.csproj|solutionrelative:outerspacedetection.webapi\\outerspacedetection.webapi.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:5:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\Program.cs",
+              "RelativeToolTip": "OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\Program.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T20:01:40.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.WebAPI\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T20:01:19.253Z",
+              "EditorCaption": ""
             }
           ]
         }

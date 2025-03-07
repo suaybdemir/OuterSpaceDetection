@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 using Microsoft.OpenApi.Models;
 using System.Threading.RateLimiting;
+using OuterSpaceDetection.WebApi.Application.Mapping;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +25,7 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddExceptionHandler<ExceptionHandler>();
 builder.Services.AddProblemDetails();
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 builder.Services.AddControllers().AddOData(action =>
 {
