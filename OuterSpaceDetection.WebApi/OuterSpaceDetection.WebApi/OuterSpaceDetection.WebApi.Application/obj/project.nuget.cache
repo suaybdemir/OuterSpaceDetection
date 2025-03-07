@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zhM7bLKT0dc=",
+  "dgSpecHash": "IEOss35BKso=",
   "success": true,
-  "projectFilePath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Application\\OuterSpaceDetection.WebApi.Application.csproj",
+  "projectFilePath": "C:\\Users\\pc\\Documents\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Application\\OuterSpaceDetection.WebApi.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\ardalis.smartenum\\8.0.0\\ardalis.smartenum.8.0.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",

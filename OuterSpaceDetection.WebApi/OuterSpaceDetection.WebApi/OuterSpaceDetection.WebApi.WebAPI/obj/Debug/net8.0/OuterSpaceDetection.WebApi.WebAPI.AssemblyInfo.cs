@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OuterSpaceDetection.WebApi.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4503f5905b101f47810e1f7e67beb32e7e9f3665")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b130b01cd12f151918795e86e85e6eec49285c4e")]
 [assembly: System.Reflection.AssemblyProductAttribute("OuterSpaceDetection.WebApi.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OuterSpaceDetection.WebApi.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

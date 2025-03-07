@@ -35,4 +35,4 @@ jobs:
       run: dotnet build $env:Solution_Name --configuration ${{ matrix.configuration }}
 
     - name: Run the Application
-      run: dotnet run --configuration ${{ matrix.configuration }} --project $env:Solution_Name/OuterSpaceDetection.WebApi.csproj
+      run: dotnet run --configuration ${{ matrix.configuration }} --project $env:Solution_Name/OuterSpaceDetection.WebApi.WebAPI.csproj

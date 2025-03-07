@@ -989,11 +989,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\OuterSpaceDetection.WebApi.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Documents\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\OuterSpaceDetection.WebApi.Domain.csproj",
       "projectName": "OuterSpaceDetection.WebApi.Domain",
-      "projectPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\OuterSpaceDetection.WebApi.Domain.csproj",
+      "projectPath": "C:\\Users\\pc\\Documents\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\OuterSpaceDetection.WebApi.Domain.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\Desktop\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Documents\\OuterSpaceDetection\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi\\OuterSpaceDetection.WebApi.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
