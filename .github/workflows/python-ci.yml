@@ -22,7 +22,8 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r ./OuterSpaceDetectionAIService/requirements.txt
+        pip install tensorflow opencv-python numpy matplotlib
+
 
     - name: Run Image Processing Script
       run: python process_image.py
