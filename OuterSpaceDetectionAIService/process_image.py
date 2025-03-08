@@ -1,49 +1,36 @@
 import cv2
-import numpy as np
-
 image = cv2.imread("object.jpg")
-hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 
-color_ranges = {
-    "Blue Star": (np.array([90, 50, 50]), np.array([130, 255, 255])),  # Blue Stars
-    "Blue White Star": (np.array([100, 30, 200]), np.array([130, 70, 255])),  # Blue-White Stars
-    "White Star": (np.array([0, 0, 200]), np.array([180, 30, 255])),  # White Stars
-    "Yellow White Star": (np.array([20, 50, 200]), np.array([40, 150, 255])),  # Yellow-White Stars
-    "Yellow Star": (np.array([15, 150, 150]), np.array([35, 255, 255])),  # Yellow Stars
-    "Orange Star": (np.array([10, 150, 100]), np.array([25, 255, 255])),  # Orange Stars
-    "Red Star": (np.array([0, 150, 50]), np.array([10, 255, 255])),  # Red Stars
-    "mars": (np.array([0, 150, 100]), np.array([10, 255, 255])),  # Red Mars
-    "jupiter": (np.array([15, 80, 100]), np.array([30, 255, 255])),  # Yellow Jupiter
-    "meteors": (np.array([40, 50, 50]), np.array([80, 255, 255]))  # Green Meteors
-}
+clahe = cv2.createCLAHE(clipLimit=3.0, tileGridSize=(8, 8))
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+gray = clahe.apply(gray)
 
-object_counts = {}
-object_centers = []
+_, binary = cv2.threshold(gray, 128, 255, cv2.THRESH_BINARY)
 
-for obj_type, (lower, upper) in color_ranges.items():
-    mask = cv2.inRange(hsv, lower, upper)
-    contours, _ = cv2.findContours(mask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+contours, _ = cv2.findContours(binary, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
-    count = 0
-    centers = []
-    for cnt in contours:
-        if cv2.contourArea(cnt) <= 50:  # Filter big noise
-            x, y, w, h = cv2.boundingRect(cnt)
-            cx, cy = x + w // 2, y + h // 2  # Get center
-            centers.append([cx, cy])
-            cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 2)
-            count += 1
+processed = [False] * len(contours)
 
-    object_counts[obj_type] = count
-    object_centers.extend(centers)
+total_stars = 0
 
-object_centers = np.array(object_centers)
+threshold = 0.01 # Potent Threshold for Little Stars
+max_area = 100000
+step = 0.01
 
-print("Detected Objects:")
-for obj, count in object_counts.items():
-    print(f"- {obj.capitalize()}: {count}")
+while threshold <= max_area:
+    for i, cnt in enumerate(contours):
+        if not processed[i]:
+            area = cv2.contourArea(cnt)
 
+            if area < threshold:
+                total_stars += 1
+                processed[i] = True
+                x, y, w, h = cv2.boundingRect(cnt)
+                cv2.rectangle(image, (x, y), (x + w, y + h), (0, 255, 0), 1)
+    threshold += step 
 
-cv2.imshow("Detected Space Objects", image)
+print(f"Toplam Yıldız Sayısı: {total_stars}")
+
+cv2.imshow("Detected Stars", image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
