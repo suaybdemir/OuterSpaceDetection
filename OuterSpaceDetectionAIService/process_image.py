@@ -14,7 +14,7 @@ processed = [False] * len(contours)
 total_stars = 0
 
 threshold = 0.01 # Potent Threshold for Little Stars
-max_area = 100000
+max_area = 500
 step = 0.01
 
 while threshold <= max_area:
