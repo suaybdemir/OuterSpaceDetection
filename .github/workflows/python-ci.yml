@@ -26,8 +26,7 @@ jobs:
 
     - name: Create Test Image
       run: |
-        mkdir -p uploads
-        convert -size 100x100 xc:black uploads/object.jpg
+        python -c "import cv2; import numpy as np; img = np.zeros((100,100,3), np.uint8); cv2.imwrite('uploads/object.jpg', img)"
 
     - name: Run Flask App
       run: |
