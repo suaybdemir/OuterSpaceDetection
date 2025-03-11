@@ -25,6 +25,6 @@ jobs:
         pip install opencv-python numpy
 
     - name: Run Image Processing Script
-      run: python OuterSpaceDetectionAIService/process_image.py
+      run: python OuterSpaceDetectionAIService/image_service.py
 
     # Make sure the object.jpg is being correctly referenced in process_image.py
