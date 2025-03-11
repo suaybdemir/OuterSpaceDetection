@@ -22,9 +22,17 @@ jobs:
     - name: Install Dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flask opencv-python numpy
+        pip install flask opencv-python-headless numpy
 
-    - name: Run Image Processing Script
-      run: python OuterSpaceDetectionAIService/image_service.py
+    - name: Create Test Image
+      run: |
+        mkdir -p uploads
+        convert -size 100x100 xc:black uploads/object.jpg
 
-    # Make sure the object.jpg is being correctly referenced in process_image.py
+    - name: Run Flask App
+      run: |
+        python OuterSpaceDetectionAIService/image_service.py &
+        FLASK_PID=$!
+        sleep 5  # Flask’ın tamamen başlamasını bekle
+        curl -X POST -F "image=@uploads/object.jpg" http://127.0.0.1:5000/detect-stars-fast || exit 1
+        kill $FLASK_PID
